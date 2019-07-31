@@ -20,4 +20,14 @@ public class EngineTest {
         assertEquals(EngineType.DIESEL, engine.getEnginetype());
     }
 
+    @Test
+    public void canGetEngineBhp() {
+        assertEquals(209, engine.getBhp());
+    }
+
+    @Test
+    public void canGetEmissions() {
+        assertEquals(130, engine.getEmissions());
+    }
+
 }
