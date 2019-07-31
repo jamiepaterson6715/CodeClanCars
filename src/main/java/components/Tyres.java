@@ -2,7 +2,6 @@ package components;
 
 public class Tyres {
 
-
     private int width;
     private int aspectRatio;
     private int diameter;
